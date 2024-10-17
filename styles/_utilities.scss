@@ -1,0 +1,51 @@
+@use 'variables' as *;
+
+
+
+
+.bg-color-accent-300 {
+    background-color: $clr-accent-300;
+}
+
+
+.center-both-axis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+.width-fit {
+    width: fit-content;
+}
+
+.padding-top-right-left-24 {
+    padding: $sz-300 $sz-300 $sz-300 $sz-300;
+}
+
+.margin-top-24 {
+    margin-top: $sz-300;
+}
+
+
+
+.text-preset-1 {
+    font-family: $font-family-headings;
+    font-weight: $fw-extra-bold-800;
+    font-size: $fs-700;
+}
+
+.text-preset-2 {
+    font-family: $font-fmaily-body;
+    font-weight: $fw-body;
+    font-size: $fs-400;
+    color: $clr-neutral-500;
+}
+
+.text-preset-3-bold {
+    font-size: $fs-extra;
+    font-weight: $fw-extra-bold-800;
+    font-family: $font-family-headings;
+}

@@ -1,0 +1,56 @@
+@use "reset";
+@use "variables" as *;
+@use "utilities";
+
+
+
+body {
+    line-height: 150%;
+}
+
+header img {
+    border-radius: 10px;
+}
+
+h2 {
+    padding: $sz-50 $sz-150;
+    border-radius: $sz-50;
+}
+
+p {
+    font-family: "Figtree";
+    
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    max-width: 129px;
+    justify-content: space-between;
+   
+}
+
+footer img {
+    width: 32px;
+    height: 32px;
+}
+
+footer p {
+    margin-top: 0;
+}
+
+
+.wrapper {
+    max-width: 327px;
+    background-color: $clr-neutral-100;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 0 black;
+}
+
+@media (min-width: 40em) {
+    .wrapper {
+        max-width: 384px;
+       
+    }
+}
+
